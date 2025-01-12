@@ -1,8 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='malicious_library',
+   name='legitimate-library',
     version='1.1.0',
-    packages=['malicious_library'],
+    description='A malicious library for educational purposes',
+    author='Attacker',
+    author_email='attacker@example.com',
+    packages=['legitimate-library'],
     install_requires=[],
 )
