@@ -1,0 +1,8 @@
+setup.py
+legitimate_library/__init__.py
+legitimate_library/core.py
+legitimate_library/malicious_library.py
+legitimate_library.egg-info/PKG-INFO
+legitimate_library.egg-info/SOURCES.txt
+legitimate_library.egg-info/dependency_links.txt
+legitimate_library.egg-info/top_level.txt

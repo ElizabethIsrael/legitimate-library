@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages 
 
 setup(
    name='legitimate-library',
@@ -6,6 +6,6 @@ setup(
     description='A malicious library for educational purposes',
     author='Attacker',
     author_email='attacker@example.com',
-    packages=['legitimate-library'],
+    packages=find_packages(),
     install_requires=[],
 )
